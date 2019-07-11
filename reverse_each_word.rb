@@ -1,4 +1,5 @@
 def reverse_each_word(string)
-reversed = string.reverse.collect { |x| }
-puts reversed
+new_string = string.split
+reversed = new_string.collect {|word| word.reverse}
+reversed.join(" ")
 end
