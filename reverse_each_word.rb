@@ -1,4 +1,4 @@
 def reverse_each_word(string)
-reverse = string.reverse.collect { |x| }
-puts reverse
+reversed = string.reverse.collect { |x| }
+puts reversed
 end
